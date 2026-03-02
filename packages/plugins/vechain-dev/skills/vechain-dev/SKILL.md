@@ -2,7 +2,6 @@
 name: vechain-dev
 description: VeChain development playbook. VeChain Kit for React dApps, SDK for backends, Solidity+Hardhat for contracts, Thor Solo for testing. Covers fee delegation, multi-clause, social login, VeBetterDAO, StarGate, governance.
 allowed-tools: []
-model: sonnet
 license: MIT
 metadata:
   author: VeChain
