@@ -1,15 +1,15 @@
-# VeChain AI
+# VeChain AI Skills
 
-AI plugins, agents, and tools for VeChain development.
+AI skills and plugins for VeChain development.
 
 ## Quick Start
 
 ```bash
 # Skills CLI (any agent)
-npx skills add vechain/vechain-ai
+npx skills add vechain/vechain-ai-skills
 
 # Claude Code Marketplace
-/plugin marketplace add vechain/vechain-ai
+/plugin marketplace add vechain/vechain-ai-skills
 
 # Install the plugin
 /plugin install vechain-dev          # Full-stack VeChain development
