@@ -1,6 +1,6 @@
 # VeChain AI Skills
 
-AI skills and plugins for VeChain development.
+AI skills and plugins for VeChain development and agentic coding.
 
 ## Quick Start
 
@@ -11,33 +11,25 @@ npx skills add vechain/vechain-ai-skills
 # Claude Code Marketplace
 /plugin marketplace add vechain/vechain-ai-skills
 
-# Install the plugin
+# Install skills
 /plugin install vechain-dev          # Full-stack VeChain development
+/plugin install karpathy-guidelines  # LLM coding best practices
+/plugin install translate            # i18n translation management
 ```
 
-## What's Included
+## Skills
 
-### vechain-dev plugin
+### vechain-dev
 
-A single comprehensive skill covering the full VeChain development stack:
+Full-stack VeChain development — dApps (VeChain Kit, dapp-kit), smart contracts (Solidity + Hardhat), fee delegation, multi-clause transactions, testing, security, and DeFi ecosystem (VeBetterDAO, StarGate, governance).
 
-- Frontend dApps with VeChain Kit or dapp-kit, React Query patterns, SDK migration
-- Solidity + Hardhat on VeChainThor, gas optimization, ABI codegen
-- Fee delegation (VIP-191), multi-clause transactions
-- Testing with Hardhat + Thor Solo
-- Smart contract security review and checklists
-- VeBetterDAO (X2Earn / B3TR), StarGate staking, governance (VeVote / VOT3)
+### karpathy-guidelines
 
-## Example Prompts
+Behavioral guidelines to reduce common LLM coding mistakes. Surface assumptions, make surgical changes, keep code simple, and define verifiable success criteria.
 
-```text
-"Set up a Next.js app with VeChain Kit and social login"
-"Deploy an ERC-20 token on VeChainThor with Hardhat"
-"Add fee delegation so my users don't pay gas"
-"Send VET and call a contract in one multi-clause transaction"
-"Help me build a VeBetterDAO X2Earn app"
-"Review my smart contract for security vulnerabilities"
-```
+### translate
+
+Manages react-i18next translation files across 15 languages. Adds/removes keys, keeps files sorted, enforces fixed-word rules, and verifies sync with the source locale.
 
 ## Contributing
 
